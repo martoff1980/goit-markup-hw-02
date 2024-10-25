@@ -1,0 +1,364 @@
+/** @format */
+/* html */
+:root {
+  --color-primary-dark: #2e2f42;
+  --color-primary-light: #ffffff;
+  --color-secondary-light: #e7e9fc;
+  --font-family-primary: 'Roboto';
+  --font-family-secondary: 'Raleway';
+}
+
+body {
+  background-color: var(--color-primary-light);
+  font-family: var(--font-family-primary);
+}
+
+.header-nav {
+  display: flex;
+  align-items: center;
+  width: 1440px;
+  height: 72px;
+}
+
+.logo_and_brand {
+  display: block;
+  margin-left: 156px;
+  font-family: var(--font-family-secondary);
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 21px;
+}
+
+.logo-text.web {
+  width: 44px;
+  color: #4d5ae5;
+}
+
+.logo-text.studio {
+  width: 71px;
+  color: #2e2f42;
+}
+
+.header-menu {
+  display: flex;
+  align-items: center;
+  width: 261px;
+  height: 24px;
+  gap: 40px;
+  list-style-type: none;
+}
+
+.header-link {
+  font-family: var(--font-family-primary);
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  color: #2e2f42;
+}
+
+.contacts_block {
+  display: flex;
+  align-items: center;
+  margin-left: 408px;
+  line-height: 24px;
+  gap: 40px;
+  font-family: var(--font-family-primary);
+  font-weight: 400;
+  font-size: 16px;
+  color: #434455;
+}
+
+main {
+  display: block;
+}
+
+.hero_section {
+  display: block;
+  padding-top: 188px;
+}
+
+.hero_discription {
+  display: block;
+  width: 1440px;
+  height: 600px;
+  background-color: var(--color-primary-dark);
+}
+
+.hero-title {
+  width: 496px;
+  height: 120px;
+  margin-left: 472px;
+  margin-top: 0px;
+  font-family: var(--font-family-primary);
+  font-weight: 700;
+  font-size: 56px;
+  line-height: 60px;
+  align-content: center;
+  color: var(--color-primary-light);
+}
+
+.hero_button {
+  display: block;
+}
+
+.button {
+  width: 169px;
+  height: 56px;
+  margin-left: 636px;
+  margin-top: 48px;
+  border-radius: 4px;
+  background-color: #4d5ae5;
+}
+
+.button-text {
+  display: block;
+  width: 105px;
+  height: 24px;
+  margin-left: 668px;
+  margin-top: -44px;
+  font-family: var(--font-family-primary);
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  color: var(--color-primary-light);
+}
+
+.section_one {
+  display: block;
+  width: 1128px;
+  height: 104px;
+  margin-left: 156px;
+  margin-top: 120px;
+}
+
+.section-one {
+  display: flex;
+  gap: 24px;
+  font-family: var(--font-family-primary);
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 4px;
+  color: var(--color-primary-dark);
+}
+
+.stategy_discription,
+.punctuality_discription,
+.diligence_discription,
+.technologies_discription {
+  width: 264px;
+  height: 104px;
+}
+
+.stategy_discription h3,
+.punctuality_discription h3,
+.diligence_discription h3,
+.technologies_discription h3 {
+  font-weight: 500;
+  font-size: 20px;
+}
+
+.section_two {
+  display: block;
+  width: 1440px;
+  height: 732px;
+  margin-top: 120px;
+  background-color: #f4f4fd;
+}
+
+.banner_team {
+  display: block;
+  width: 162px;
+  height: 40px;
+  margin-left: 639px;
+  padding-top: 120px;
+}
+
+.banner_team h2 {
+  font-family: var(--font-family-primary);
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 40px;
+  align-content: center;
+  color: var(--color-primary-dark);
+}
+
+.cards_team {
+  display: flex;
+  margin-left: 156px;
+  padding-top: 112px;
+  gap: 24px;
+}
+
+.card_1,
+.card_2,
+.card_3,
+.card_4 {
+  width: 264px;
+  height: 380px;
+  font-family: var(--font-family-primary);
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  background-color: var(--color-primary-light);
+}
+
+.card_1_content,
+.card_2_content,
+.card_3_content,
+.card_4_content {
+  display: flex;
+  width: 232px;
+  height: 56px;
+  padding-left: 16px;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.card_1_content h3,
+.card_2_content h3,
+.card_3_content h3,
+.card_4_content h3 {
+  font-size: 20px;
+  font-weight: 500;
+  align-content: center;
+}
+
+.card_1_content p,
+.card_2_content p,
+.card_3_content p,
+.card_4_content p {
+  margin-top: -5px;
+}
+
+.traling-icons {
+  display: flex;
+  width: 232px;
+  height: 40px;
+  padding-left: 16px;
+  padding-top: 25px;
+  gap: 24px;
+  list-style-type: none;
+}
+
+.traling-icons {
+  display: flex;
+  width: 232px;
+  height: 40px;
+  padding-left: 16px;
+  padding-top: 25px;
+  gap: 24px;
+  list-style-type: none;
+}
+
+.elipse {
+  display: grid;
+  align-content: center;
+  justify-content: center;
+  width: 40px;
+  height: 40px;
+}
+
+.instagram,
+.twitter,
+.linkedin,
+.facebook {
+  display: block;
+  width: 16px;
+  height: 16px;
+}
+
+.group {
+  display: block;
+  width: 16px;
+  height: 13px;
+  margin-top: 1.5px;
+}
+
+.banner_portfolio {
+  display: block;
+  width: 218px;
+  height: 40px;
+  /* margin-left: 639px;
+  padding-top: 120px; */
+}
+
+.text_discription {
+  display: block;
+  width: 264px;
+  height: 72px;
+  font-family: 'Roboto';
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 12px;
+  color: #f4f4fd;
+}
+
+.section_tree {
+  display: block;
+  width: 1128px;
+  height: 1000px;
+  /* margin-left: 156px; */
+  margin-top: 120px;
+  border: 1px;
+  border-color: var(--color-secondary-light);
+}
+
+.banner_portfolio h2 {
+  width: 224px;
+  margin-left: 611px;
+  font-family: var(--font-family-secondary);
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 40px;
+  align-content: center;
+  color: var(--color-primary-dark);
+}
+
+.images {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  /* padding: 20px; */
+  margin-top: 72px;
+  margin-left: 156px;
+  gap: 24px;
+}
+
+.images img {
+  width: 100%;
+  height: auto;
+}
+
+footer {
+  width: 1440px;
+  height: 312px;
+  background-color: var(--color-primary-dark);
+}
+
+.footer_item {
+  display: block;
+  width: 264px;
+  height: 112px;
+  padding-left: 156px;
+  padding-top: 100px;
+}
+
+.footer_item .logo_and_brand {
+  display: block;
+  width: 115px;
+  height: 24px;
+  font-family: var(--font-family-secondary);
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 21px;
+}
+
+.footer_item .logo_and_brand .logo-text.web {
+  width: 44px;
+  color: #4d5ae5;
+}
+
+.footer_item .logo_and_brand .logo-text.studio {
+  width: 71px;
+  color: var(--color-secondary-light);
+}
