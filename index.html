@@ -14,16 +14,15 @@
     >
     <title>Studio</title>
   </head>
-  <body>
+  <body style="width: 1440px">
     <header>
       <div class="container">
-        <div class="header_container">
+        <div class="header_container" style="display: flex">
           <nav
             class="header-nav"
             style="
               display: flex;
               align-items: center;
-              width: 1440px;
               height: 72px;
               color: #e7e9fc;
             "
@@ -32,24 +31,21 @@
               class="logo_and_brand"
               style="
                 display: block;
-                margin-left: 156px;
+                padding-left: 156px;
                 font-family: 'Raleway';
-                font-weight: 800;
+                font-weight: 700;
                 font-size: 18px;
                 line-height: 21px;
               "
             >
-              <a
-                class="logo-text"
-                style="width: 44px; height: 21px; color: #4d5ae5"
-              >
-                WEB
-              </a>
-              <a
-                class="logo-text"
-                style="width: 71px; height: 21px; color: #2e2f42"
-              >
-                STUDIO
+              <a href="#">
+                <span class="logo-text" style="color: #4d5ae5">WEB</span>
+                <span
+                  class="logo-text"
+                  style="margin-left: -3px; color: #2e2f42"
+                >
+                  STUDIO
+                </span>
               </a>
             </div>
             <ul
@@ -59,12 +55,14 @@
                 align-items: center;
                 width: 261px;
                 height: 24px;
+                padding-left: 76px;
                 gap: 40px;
                 list-style-type: none;
               "
             >
               <li>
                 <a
+                  href="#"
                   class="header-link"
                   style="
                     width: 48px;
@@ -81,6 +79,7 @@
               </li>
               <li>
                 <a
+                  href="#"
                   class="header-link"
                   style="
                     width: 64px;
@@ -97,6 +96,7 @@
               </li>
               <li>
                 <a
+                  href="#"
                   class="header-link"
                   style="
                     width: 67px;
@@ -112,55 +112,54 @@
                 </a>
               </li>
             </ul>
-            <div
-              class="contacts"
-              style="display: flex; align-items: center; gap: 40px"
-            >
-              <div
-                class="contact-mail"
-                style="
-                  width: 153px;
-                  height: 24px;
-                  margin-left: 408px;
-                  font-family: 'Roboto';
-                  font-weight: 400;
-                  font-size: 16px;
-                  line-height: 24px;
-                  color: #434455;
-                "
-              >
-                <a>info@devstudio.com</a>
-              </div>
-              <div
-                class="contact-phone"
-                style="
-                  width: 100%;
-                  height: 24px;
-                  top: 24px;
-                  left: 1133px;
-                  font-family: 'Roboto';
-                  font-weight: 500;
-                  font-size: 16px;
-                  line-height: 24px;
-                  color: #434455;
-                "
-              >
-                <a>info@+11 (000) 111-11-11</a>
-              </div>
-            </div>
           </nav>
+          <div
+            class="contacts_block"
+            style="
+              display: flex;
+              padding-left: 333px;
+              align-items: center;
+              gap: 40px;
+            "
+          >
+            <div
+              class="contact-mail"
+              style="
+                width: 153px;
+                height: 24px;
+                font-family: 'Roboto';
+                font-weight: 400;
+                font-size: 16px;
+                line-height: 24px;
+                color: #434455;
+              "
+            >
+              <a>info@devstudio.com</a>
+            </div>
+            <div
+              class="contact-phone"
+              style="
+                width: 100%;
+                height: 24px;
+                top: 24px;
+                left: 1133px;
+                font-family: 'Roboto';
+                font-weight: 500;
+                font-size: 16px;
+                line-height: 24px;
+                color: #434455;
+              "
+            >
+              <a>info@+11 (000) 111-11-11</a>
+            </div>
+          </div>
         </div>
       </div>
     </header>
     <main class="main" style="display: block">
       <div
         class="hero_discription"
-        style="
-          display: block;
-          width: 1440px;
-          height: 600px;
-          background-color: #2e2f42;
-        "
+        style="display: block; height: 600px; background-color: #2e2f42"
       >
         <div class="hero_section" style="display: block; padding-top: 188px">
           <h1
@@ -274,95 +273,22 @@
         class="section_two"
         style="
           display: block;
-          width: 1128px;
-          height: 412px;
-          margin-left: 156px;
-          margin-top: 120px;
-        "
-      >
-        <section class="section-two" style="display: block">
-          <div
-            class="banner"
-            style="
-              display: block;
-              width: 323px;
-              height: 40px;
-              padding-left: 403px;
-            "
-          >
-            <h2
-              style="
-                font-family: 'Roboto';
-                font-weight: 700;
-                font-size: 36px;
-                line-height: 40px;
-                align-content: center;
-                color: #2e2f42;
-              "
-            >
-              What are we doing
-            </h2>
-          </div>
-          <div
-            class="images"
-            style="display: flex; margin-top: 72px; gap: 24px"
-          >
-            <div class="image_1">
-              <a href="#">
-                <img
-                  src="./images/image1.jpg"
-                  alt="monitor and infographics"
-                  width="360"
-                  height="300"
-                >
-              </a>
-            </div>
-            <div class="image_2">
-              <a href="#">
-                <img
-                  src="./images/image2.jpg"
-                  alt="four displays"
-                  width="360"
-                  height="300"
-                >
-              </a>
-            </div>
-            <div class="image_3">
-              <a href="#">
-                <img
-                  src="./images/image3.jpg"
-                  alt="laptop and smartphone"
-                  width="360"
-                  height="300"
-                >
-              </a>
-            </div>
-          </div>
-        </section>
-      </div>
-      <div
-        class="section_three"
-        style="
-          display: block;
           width: 1440px;
           height: 732px;
           margin-top: 120px;
           background-color: #f4f4fd;
         "
       >
-        <section class="section-three">
+        <section class="section-two">
           <div
             class="banner_team"
-            style="
-              display: block;
-              width: 162px;
-              height: 40px;
-              margin-left: 639px;
-              padding-top: 120px;
-            "
+            style="display: block; padding-left: 639px; padding-top: 120px"
           >
             <h2
+              class="banner_team"
               style="
+                width: 167px;
+                height: 40px;
                 font-family: 'Roboto';
                 font-weight: 700;
                 font-size: 36px;
@@ -379,7 +305,7 @@
             style="
               display: flex;
               margin-left: 156px;
-              padding-top: 112px;
+              margin-top: 72px;
               gap: 24px;
             "
           >
@@ -928,8 +854,8 @@
         <div
           class="logo_and_brand"
           style="
-            display: block;
-            width: 125px;
+            display: flex;
+            width: 115px;
             height: 24px;
             font-family: 'Raleway';
             font-weight: 800;
