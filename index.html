@@ -12,72 +12,82 @@
       href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;600;700;800&display=swap"
       rel="stylesheet"
     >
-    <link rel="stylesheet" href="./css/styles.css">
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/3.0.1/modern-normalize.min.css"
+      integrity="sha512-q6WgHqiHlKyOqslT/lgBgodhd03Wp4BEqKeW6nNtlOY4quzyG3VoQKFrieaCeSnuVseNKRGpGeDU3qPmabCANg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    >
+    <link rel="stylesheet" href="./css/styles.css" >
     <title>Studio</title>
   </head>
   <body>
     <header>
       <div class="container">
-        <div class="header_container">
+        <div class="header-container">
           <nav class="header-nav">
-            <div class="logo_and_brand">
-              <a class="logo-text web">WEB</a>
-              <a class="logo-text studio">STUDIO</a>
+            <div class="header-container logo-and-brand">
+              <a href="#">
+                <span class="logo-text web">WEB</span>
+                <span class="logo-text studio">STUDIO</span>
+              </a>
             </div>
             <ul class="header-menu">
               <li>
-                <a class="header-link">Studio</a>
+                <a href="#" class="header-link">Studio</a>
               </li>
               <li>
-                <a class="header-link">Portfolio</a>
+                <a href="#" class="header-link">Portfolio</a>
               </li>
               <li>
-                <a class="header-link">Contacts</a>
+                <a href="#" class="header-link">Contacts</a>
               </li>
             </ul>
-            <div class="contacts_block">
-              <div class="contact_mail">
-                <a>info@devstudio.com</a>
-              </div>
-              <div class="contact_phone">
-                <a>info@+11 (000) 111-11-11</a>
-              </div>
-            </div>
           </nav>
+          <div class="contacts-block">
+            <div class="contact-mail">
+              <a>info@devstudio.com</a>
+            </div>
+            <div class="contact-phone">
+              <a>info@+11 (000) 111-11-11</a>
+            </div>
+          </div>
         </div>
       </div>
     </header>
     <main>
-      <div class="hero_discription">
-        <div class="hero_section">
+      <div class="hero-discription">
+        <div class="hero-section">
           <h1 class="hero-title">Effective Solutions for Your Business</h1>
         </div>
-        <div class="hero_button">
-          <button class="button" type="button"></button>
-          <a class="button-text">Order Service</a>
+        <div class="hero-button">
+          <button class="button" type="button">
+            <span class="button-text">Order Service</span>
+          </button>
         </div>
       </div>
-      <div class="section_one">
-        <section class="section-one">
-          <div class="stategy_discription">
+      <div class="out-discription">
+        <section class="discription">
+          <div class="stategy-discription">
             <h3>Strategy</h3>
             <p>Our goal is to identify the business</p>
             <p>problem to walk away with the</p>
             <p>perfect and creative solution.</p>
           </div>
-          <div class="punctuality_discription">
+          <div class="punctuality-discription">
             <h3>Punctuality</h3>
             <p>Bring the key message to the</p>
             <p>brand's audience for the best price</p>
             <p>within the shortest possible time.</p>
           </div>
-          <div class="diligence_discription">
+          <div class="diligence-discription">
             <h3>Diligence</h3>
             <p>Research and confirm brands that</p>
             <p>present the strongest digital growth</p>
             <p>opportunities and minimize risk.</p>
           </div>
-          <div class="technologies_discription">
+          <div class="technologies-discription">
             <h3>Technologies</h3>
             <p>Design practice focused on digital</p>
             <p>experiences. We bring forth a deep</p>
@@ -85,13 +95,13 @@
           </div>
         </section>
       </div>
-      <div class="section_two">
-        <section class="section-two">
-          <div class="banner_team">
+      <div class="our-team">
+        <section>
+          <div class="banner-team">
             <h2>Our Team</h2>
           </div>
-          <div class="cards_team">
-            <div class="card_1">
+          <div class="cards-team">
+            <div class="card-one">
               <a href="#">
                 <img
                   src="./images/mark_guerrero.jpg"
@@ -100,7 +110,7 @@
                   height="260"
                 >
               </a>
-              <div class="card_1_content">
+              <div class="card-one-content">
                 <h3>Mark Guerrero</h3>
                 <p>Product Designer</p>
               </div>
@@ -131,7 +141,7 @@
                 </ul>
               </div>
             </div>
-            <div class="card_2">
+            <div class="card-two">
               <a href="#">
                 <img
                   src="./images/tom_ford.jpg"
@@ -140,7 +150,7 @@
                   height="260"
                 >
               </a>
-              <div class="card_2_content">
+              <div class="card-two-content">
                 <h3>Tom Ford</h3>
                 <p>Frontend Developer</p>
               </div>
@@ -171,7 +181,7 @@
                 </ul>
               </div>
             </div>
-            <div class="card_3">
+            <div class="card-tree">
               <a href="#">
                 <img
                   src="./images/camila_garcia.jpg"
@@ -180,7 +190,7 @@
                   height="260"
                 >
               </a>
-              <div class="card_3_content">
+              <div class="card-tree-content">
                 <h3>Camila Garcia</h3>
                 <p>Marketing</p>
               </div>
@@ -211,7 +221,7 @@
                 </ul>
               </div>
             </div>
-            <div class="card_4">
+            <div class="card-four">
               <a href="#">
                 <img
                   src="./images/daniel_wilson.jpg"
@@ -220,7 +230,7 @@
                   height="260"
                 >
               </a>
-              <div class="card_4_content">
+              <div class="card-four-content">
                 <h3>Daniel Wilson</h3>
                 <p>UI Designer</p>
               </div>
@@ -254,69 +264,71 @@
           </div>
         </section>
       </div>
-      <div class="section_tree">
-        <section class="section-tree">
-          <div class="banner_portfolio">
+      <div class="our-portfolio">
+        <section>
+          <div class="banner-portfolio">
             <h2>Our Portfolio</h2>
           </div>
-          <div class="images">
-            <div class="image_1">
+          <div class="images-row-one">
+            <div class="image-one">
               <a href="#">
                 <img
                   src="./images/banking_app.jpg"
                   alt="many appications"
                   width="360"
-                  height="300"
+                  height="420"
                 >
               </a>
             </div>
-            <div class="image_2">
+            <div class="image-two">
               <a href="#">
                 <img
                   src="./images/cashless_payment.jpg"
                   alt="payment by smartphone"
                   width="360"
-                  height="300"
+                  height="420"
                 >
               </a>
             </div>
-            <div class="image_3">
+            <div class="image-tree">
               <a href="#">
                 <img
                   src="./images/meditaion_app.jpg"
                   alt="laptop and smartphone"
                   width="360"
-                  height="300"
+                  height="420"
                 >
               </a>
             </div>
-            <div class="image_4">
+          </div>
+          <div class="images-row-two">
+            <div class="image-four">
               <a href="#">
                 <img
                   src="./images/taxi_service.jpg"
                   alt="steering wheel"
                   width="360"
-                  height="300"
+                  height="420"
                 >
               </a>
             </div>
-            <div class="image_5">
+            <div class="image-five">
               <a href="#">
                 <img
                   src="./images/screen_illustrations.jpg"
                   alt="smartphone and four screenshots"
                   width="360"
-                  height="300"
+                  height="420"
                 >
               </a>
             </div>
-            <div class="image_6">
+            <div class="image-six">
               <a href="#">
                 <img
                   src="./images/online_courses.jpg"
                   alt="beautiful girl in orange"
                   width="360"
-                  height="300"
+                  height="420"
                 >
               </a>
             </div>
@@ -325,12 +337,13 @@
       </div>
     </main>
     <footer>
-      <div class="footer_item">
-        <div class="logo_and_brand">
-          <a class="logo-text web">Web</a>
-          <a class="logo-text studio">Studio</a>
+      <div class="footer-item">
+        <!-- logo-text -->
+        <div class="footer-item logo-and-brand">
+          <span class="logo-and-brand web">WEB</span>
+          <span class="logo-and-brand studio">STUDIO</span>
         </div>
-        <div class="text_discription">
+        <div class="text-discription">
           <p>Increase the flow of customers and</p>
           <p>sales for your business with digital</p>
           <p>marketing & growth solutions.</p>
