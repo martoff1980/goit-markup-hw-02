@@ -12,15 +12,15 @@ body {
 .header-nav a {
 	display: block;
 	text-transform: uppercase;
-    font-family: 'Raleway';
+	font-family: 'Raleway', sans-serif;
 	font-weight: 700;
 	font-size: 18px;
 	line-height: 1.17;
 	letter-spacing: 0.03em;
-    color: #4d5ae5"
+	color: #4d5ae5;
 }
 
-.header-nav .logo-text-studio {
+.header-nav .logo-text {
 	color: #2e2f42;
 }
 
@@ -37,51 +37,51 @@ body {
 	color: #404bbf;
 }
 
-
 .header-address {
 	font-style: normal;
-
 }
 
 .header-contacts {
 	font-size: 16px;
-	 line-height: 1.5;
-	 letter-spacing: 0.02em;
-	  color: #434455;
-
+	line-height: 1.5;
+	letter-spacing: 0.02em;
+	color: #434455;
 }
 
-.header-mail:hover,
-.header-mail:focus {
+.header-contacts:hover,
+.header-contacts:focus {
 	color: #404bbf;
 }
 
 .hero-section {
-	 background-color: #2e2f42; 
+	background-color: #2e2f42;
 }
 
 .hero-title {
-	 font-size: 56px;
+	font-size: 56px;
 	line-height: 1.07;
-	 text-align: center;
-	  letter-spacing: 0.02em;
-	  color: #ffffff;
+	text-align: center;
+	letter-spacing: 0.02em;
+	color: #ffffff;
 }
-
 
 .hero-buttion {
-	 font-family: "Roboto", sans-serif;
-	 font-weight: 500;
-	  font-size: 16px;
-	  line-height: 1.5;
-	   letter-spacing: 0.04em;
-	   cursor: pointer;
-	background-color: #4D5AE5;
-	 color: #ffffff;
+	font-family: 'Roboto', sans-serif;
+	font-weight: 500;
+	font-size: 16px;
+	line-height: 1.5;
+	letter-spacing: 0.04em;
+	cursor: pointer;
+	background-color: #4d5ae5;
+	color: #ffffff;
 }
 
-.hero-buttion:hover,
-.hero-buttion:focus {
-	 background-color: #404BBF;
+.hero-buttion button:hover,
+.hero-buttion button:focus {
+	background-color: #404bbf;
 }
 
+a,
+button {
+	cursor: pointer;
+}
