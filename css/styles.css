@@ -1,7 +1,6 @@
 /** @format */
 
 body {
-	width: 1440px;
 	font-family: 'Roboto', sans-serif;
 	color: #434455;
 	background-color: #ffffff;
@@ -10,7 +9,6 @@ body {
 }
 
 .header-nav a {
-	display: block;
 	text-transform: uppercase;
 	font-family: 'Raleway', sans-serif;
 	font-weight: 700;
@@ -24,7 +22,7 @@ body {
 	color: #2e2f42;
 }
 
-.header-link {
+.header-link a {
 	font-weight: 500;
 	font-size: 16px;
 	letter-spacing: 0.02em;
@@ -65,7 +63,7 @@ body {
 	color: #ffffff;
 }
 
-.hero-buttion {
+.hero-button {
 	font-family: 'Roboto', sans-serif;
 	font-weight: 500;
 	font-size: 16px;
@@ -76,8 +74,8 @@ body {
 	color: #ffffff;
 }
 
-.hero-buttion button:hover,
-.hero-buttion button:focus {
+.hero-button:hover,
+.hero-button:focus {
 	background-color: #404bbf;
 }
 
