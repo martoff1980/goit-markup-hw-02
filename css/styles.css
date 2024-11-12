@@ -112,10 +112,6 @@ button {
 	color: #2e2f42;
 }
 
-.persons-item {
-	background-color: #ffffff;
-}
-
 .person-title {
 	font-size: 20px;
 	font-weight: 500;
@@ -130,6 +126,7 @@ button {
 	line-height: 1.5;
 	letter-spacing: 0.02em;
 	color: #434455;
+	background-color: #ffffff;
 }
 
 .portfolio-title {
