@@ -8,8 +8,6 @@ body {
 	line-height: 1.5;
 }
 
-/*.header-logo*/
-/*.header-nav a*/
 .header-nav .header-logo {
 	text-transform: uppercase;
 	font-family: 'Raleway', sans-serif;
@@ -114,7 +112,7 @@ button {
 	color: #2e2f42;
 }
 
-.persons-team {
+.persons-item {
 	background-color: #ffffff;
 }
 
