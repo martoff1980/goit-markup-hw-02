@@ -84,6 +84,14 @@ button {
 	cursor: pointer;
 }
 
+a {
+	text-decoration:none;
+}
+
+ol,ul {
+	list-style:none;
+}
+
 .discription-title {
 	font-size: 20px;
 	font-weight: 500;
